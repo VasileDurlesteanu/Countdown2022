@@ -29,3 +29,16 @@ h1 {
   font-size: 6rem;
   margin: 0rem;
 }
+
+@media (max-width: 40rem) {
+    .clock-container {
+    width: 30%;
+    min-width: 13rem;
+    max-width: 25rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 28rem;
+    color:lightseagreen;
+  }
+}

@@ -1,0 +1,31 @@
+* {
+ font-family: "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif; 
+}
+
+body {
+  background: url(https://images.unsplash.com/photo-1480430158524-ae7ea5944e3f?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1500&q=80);
+  background-repeat: no-repeat;
+  background-size: 93.75rem 56.25rem;
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+}
+
+h1 {
+  align-self: flex-start;
+  font-size: 4rem;
+  color:  floralwhite;
+}
+
+.clock-container {
+  display: inline-grid;
+  grid-template-columns: 0.75rem 0.75rem 0.75rem 0.75rem;
+  justify-content: space-evenly;
+  color: floralwhite;
+  font-size: 2rem;
+}
+
+.big-text {
+  font-size: 6rem;
+  margin: 0rem;
+}
